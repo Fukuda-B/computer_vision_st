@@ -12,7 +12,7 @@ docs/crowdin.py
 *.m4a
 *.wav
 *.png
-*.jpg
+# *.jpg
 *.flac
 *.mo
 *.webm

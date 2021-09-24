@@ -66,7 +66,7 @@ while True:
     cTime = time.time()
     fps = 1/(cTime-pTime)
     pTime = cTime
-    cv2.putText(imgS, str(int(fps*4)), (10, 25), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0), 1) # fps
+    cv2.putText(imgS, str(int(fps)), (10, 25), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0), 1) # fps
 
     cv2.imshow("B tracker", imgS)
     cv2.waitKey(1)
